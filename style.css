@@ -12,7 +12,7 @@ body {
 }
 
 button {
-    width: 100px;
+    width: 120px;
     height: auto;
     padding: 6px 12px;
     border-radius: 1.5mm;
@@ -35,7 +35,7 @@ button {
         .header {
             /* display */
             display: flex;
-            width: 1200px;
+            width: 1000px;
             display: flex;
             justify-content: space-between;
         }
@@ -68,8 +68,8 @@ button {
 
         .awesome-container {
             display: flex;
-            height: 250px;
-            width: 1200px;
+            height: 230px;
+            width: 1000px;
             gap: 40px;
             margin-bottom: 50px;
         }
@@ -113,5 +113,48 @@ button {
             font-weight: bold;
         }
 
+/* PANEL TWO */
+.container-2 {
+    height: 420px;
+    text-align: center;
+}
 
-        
+    /* CONTENT */
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .random {
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1f2937;
+        padding: 40px;
+    }
+
+    .bottom-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+        gap: 40px;
+    }     
+
+    .text {
+        width: 150px;
+    }
+
+    .items {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        border-radius: 4mm;
+        border-style: solid;
+        border-color: #3882f6;
+    }
