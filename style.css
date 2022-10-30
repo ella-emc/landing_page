@@ -14,7 +14,7 @@ body {
 button {
     width: 120px;
     height: auto;
-    padding: 6px 12px;
+    padding: 8px 12px;
     border-radius: 1.5mm;
 }
 
@@ -172,7 +172,7 @@ button {
     /* Content */
     .quote-container {
         display: flex;
-        width: 800px;
+        width: 750px;
         flex-direction: column;       
     }
 
@@ -189,4 +189,62 @@ button {
         color:#1f2937;
         font-weight: bolder;
         font-size: 24px;
+        margin-top: 6px;
     }
+
+
+/* PANEL FOUR */
+.container-4 {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.negative {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 0.75mm;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+    /* Content */
+    .blue-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 120px;
+        padding: 40px 100px;
+        background-color: #3882f6;
+        border-radius: 2mm;
+    }
+
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .call {
+        font-size: 24px;
+        font-weight: bold;
+        color: #F9FAF8;
+    }
+
+    .call-content {
+        font-size: 18px;
+        color: #E5E7EB;
+    }
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 80px;
+}
