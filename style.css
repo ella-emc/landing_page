@@ -11,6 +11,13 @@ body {
     margin: 0;
 }
 
+button {
+    width: 100px;
+    height: auto;
+    padding: 6px 12px;
+    border-radius: 1.5mm;
+}
+
 /* PANEL ONE */
 .container-1 {
     background-color: #1f2937;
@@ -22,6 +29,7 @@ body {
     .header-container {
         display: flex;
         justify-content: center;
+        padding: 18px;
     }
 
         .header {
@@ -30,7 +38,6 @@ body {
             width: 1200px;
             display: flex;
             justify-content: space-between;
-            padding: 18px;
         }
 
         .right {
@@ -52,9 +59,57 @@ body {
 
     
     /* AWESOME CONTENT */
+        .master-awesome {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 420px;
+        }    
+
         .awesome-container {
             display: flex;
-            justify-content: space-between;
+            height: 250px;
+            width: 1200px;
+            gap: 40px;
+        }
+
+        .left-awesome {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 600px;
+            gap: 10px;
+        }
+ 
+        .awesome-text {
+            color: #F9FAF8;
+            font-weight: bolder;
+            font-size: 48px;
+        }
+
+        .awesome-subtext {
+            color: #E5E7EB;
+            font-size: 18px;
+        }
+
+        .right-awesome {
+            display: flex;
+            background: #797e86;
+            margin-left: auto;
+            width: 500px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .placeholder {
+            color:#E5E7EB;
+        }
+
+        .positive {
+            background-color: #3882f6;
+            border-color: #3882f6;
+            color: #F9FAF8;
+            font-weight: bold;
         }
 
 
